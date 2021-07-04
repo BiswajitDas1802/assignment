@@ -1,0 +1,66 @@
+.homepage{
+    display:flex;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(244,245,247);
+}
+
+.homepage__content{
+width:100%;
+/* background-color: grey; */
+}
+
+.homepage__top{
+    background-color: white;
+    height:8rem;
+ 
+}
+
+
+.homepage__imgbox{
+    height:8rem;
+    width:8rem;
+}
+
+.upload__btn{
+    height:200px;
+    width:200px;
+    background:white;
+    text-align:center;
+    margin-left: -52%;
+    border: none;
+    font-weight: 900;
+}
+
+.homepage__video{
+    /* background-color: red; */
+    display:flex;
+    width:100%;
+    /* background-color:red; */
+}
+.homepage__video>h3{
+    margin-left: 4%;
+    color:rgb(120,141,164)}
+.homepage__upload{
+margin-top:6vh;
+width:100%;
+/* background-color:grey; */
+}
+
+.homepage__URL{
+    width: 60vw;
+    height:5vh;
+    border-radius: 10px;
+    border: none;
+}
+.homepage__upload>p{
+    font-weight: 900;
+}
+
+.homepage__URL::placeholder{
+    color:rgba(83,83,83,0.6);
+    font-size:1rem;
+    font-weight: 700;
+    position:relative;
+    left:5%;
+}
